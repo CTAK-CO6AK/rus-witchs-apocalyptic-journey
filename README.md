@@ -8,8 +8,8 @@
 
 | Что | Где | Формат |
 | --- | --- | --- |
-| Интерфейс (кнопки, меню, подсказки) | `aa/StandaloneWindows64/localization-string-tables-english(en)_assets_all.bundle`<br> | StringTable (MonoBehaviour), ключ — `m_Id`<br> |
-| Диалоги, карты, реликвии, события и пр. | `aa/StandaloneWindows64/dataconfig_assets_dataconfigs/text/*.bundle`<br> | TextAsset с CSV; русский пишется в колонки `*_en`<br> |
+| Интерфейс (кнопки, меню, подсказки) | `aa/Sta...s64/localization-string-tables-english(en)_assets_all.bundle`<br> | StringTable (MonoBehaviour), ключ — `m_Id`<br> |
+| Диалоги, карты, реликвии, события и пр. | `aa/Sta...s64/dataconfig_assets_dataconfigs/text/*.bundle`<br> | TextAsset с CSV; русский пишется в колонки `*_en`<br> |
 | Каталог ресурсов | `aa/catalog.bin`<br> | бинарный каталог Addressables; CRC изменённых бандлов зануляется **точечно** (`tools/patch_catalog_crc.py`)
 
  |
